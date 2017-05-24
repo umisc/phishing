@@ -79,3 +79,9 @@ function testLocalStorageData() {
     localStorage.setItem("PROFILE_NAME", "César Izquierdo Tello");
     localStorage.setItem("PROFILE_REAUTH_EMAIL", "oneaccount@gmail.com");
 }
+
+function alertUser() {
+  alert("WARNING!: This is just an example to demonstrate a phishing attack. It is an educational resource. By pressing submit, you are sending what you just typed in PLAINTEXT to the 'attacker' server. Please use a fake username and password!");
+}
+
+alertUser();
